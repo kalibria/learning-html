@@ -1,0 +1,70 @@
+.page-title {
+    text-align: center;
+    color: #f55892;
+    text-shadow: 7px 4px 14px #00000038;
+    background: whitesmoke;
+    margin: 0;
+    padding: 12px 0 12px 0;
+}
+
+.personal-page {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+ul#menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    /* text-align: center; */
+    justify-content: center;
+	background: black;
+	margin: 0;
+    padding: 7px;
+}
+#menu li {
+    margin-right: 10px;
+    font-weight: 600;
+	color:white;
+}
+section#hey {
+		background-image:url(IMG_1258.JPG);
+    background: linear-gradient(90deg,#0000ff54,black);
+	background-size: cover;
+    color: white;
+}
+div#info {
+    width: 50%;
+    margin: 0;
+    padding: 2em;
+	font-family:Arial
+}
+button.button-white {
+    width: 100px;
+    height: 28px;
+    background: 0;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+	margin-right: 32px;
+}
+.button-white:last-of-type {
+    margin-right: 0;
+}
+.button-white:hover {
+	color:yellow;
+	border-color:yellow;
+	cursor:pointer;
+}
+#foto {
+	height: 400px;
+}
+
+@media (max-width: 700px) {
+	div#info {
+		width: auto;
+	}
+}
+
